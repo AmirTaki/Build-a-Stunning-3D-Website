@@ -161,4 +161,9 @@ main {
     font-size:1.2rem;
     font-weight : 600;
     letter-spacing: .1em;
+    transition : background-color .2s ease;
+}
+
+.btn-get-started:hover {
+    background-color: #1a1a1a;
 }
