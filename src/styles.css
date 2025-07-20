@@ -147,3 +147,9 @@ main {
     max-width: 35rem;
     color:gray
 }
+
+.buttons {
+    display: flex;
+    gap : 1rem;
+    
+}
