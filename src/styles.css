@@ -83,3 +83,6 @@ nav a:hover {
     transition: background-color .2s ease;
     cursor: pointer;
 }
+.btn-singing:hover {
+    background-color: white ;   
+}
