@@ -60,3 +60,10 @@ nav {
     gap : 3rem;
     margin-left: -5%;
 }
+nav a {
+    font-size : 1rem;
+    letter-spacing: .1rem;
+    transition: color .2s ease;
+    text-decoration: none;
+    color: inherit;
+}
