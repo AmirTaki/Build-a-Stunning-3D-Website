@@ -45,3 +45,9 @@ header {
     align-items: center;
     padding: 1rem 5rem;
 }
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight : 300   
+}
