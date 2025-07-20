@@ -188,4 +188,20 @@ main {
     position: absolute;
     top : 0;
     right: -20%;
+    scale : .7
+}
+
+@media (max-width:1300px) {
+    header {
+
+        padding: 1rem .5rem ;
+    }
+    .content{
+        margin-top : 85%
+    }
+    .robot-3d {
+        scale: .6;
+        top : -20%;
+        right: 2%;
+    }
 }
