@@ -184,4 +184,8 @@ main {
     background-color: gray;
 }
 
-/* https://www.youtube.com/watch?v=oskiEydAaok */
+.robot-3d{
+    position: absolute;
+    top : 0;
+    right: -20%;
+}
