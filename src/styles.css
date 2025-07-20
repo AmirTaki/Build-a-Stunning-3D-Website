@@ -44,10 +44,19 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5rem;
+    z-index: 999;;
+
 }
 
 header h1 {
     margin: 0;
     font-size: 3rem;
     font-weight : 300   
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap : 3rem;
+    margin-left: -5%;
 }
