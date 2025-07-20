@@ -151,6 +151,7 @@ main {
 .buttons {
     display: flex;
     gap : 1rem;
+    margin-top: 3rem;
 }
 
 .btn-get-started {
@@ -167,3 +168,20 @@ main {
 .btn-get-started:hover {
     background-color: #1a1a1a;
 }
+
+.btn-siging-main{
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: .6rem 2.5rem;
+    border-radius: 50px;
+    font-weight : 600;
+    font-size : 1.2rem;
+    letter-spacing: .1em;
+    transition : background-color .2s ease;
+}
+.btn-siging-main:hover {
+    background-color: gray;
+}
+
+/* https://www.youtube.com/watch?v=oskiEydAaok */
