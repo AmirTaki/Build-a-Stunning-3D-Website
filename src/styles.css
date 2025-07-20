@@ -131,3 +131,9 @@ main {
 .tag-box .tag:hover {
     color: #5300a0;
 }
+
+.content h1 {
+    font-size : 4rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
