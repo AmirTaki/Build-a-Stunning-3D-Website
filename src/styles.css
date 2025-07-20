@@ -127,3 +127,7 @@ main {
     transition: .5s ease;
     cursor: pointer;
 }
+
+.tag-box .tag:hover {
+    color: #5300a0;
+}
