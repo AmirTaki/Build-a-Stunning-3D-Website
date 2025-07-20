@@ -105,6 +105,9 @@ main {
     height : 2.5rem;
     border-radius : 50px;
     background: linear-gradient(to right, #656565, #7f42a7, #6600c5, #5300a0, #757575, #656565);
-    background-size: animationGradient 2.5s linear infinite;
+    background-size:200%;
+    animation : animation Gradient 2.5s linear infinite;
     box-shadow:  0 0 15px rgba(255, 255, 255, .3);
 } 
+
+#
