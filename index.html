@@ -12,14 +12,14 @@
     <div class="layer-blur"></div>
     <div class="container">
         <header>
-            <h1 class = "logo">MCODE</h1>
+            <h1 data-aos = "fade-down" data-aos-duration = "1500" class = "logo">MCODE</h1>
             <nav>
-                <a href="#">COMPANY</a>
-                <a href="#">FEATURES</a>
-                <a href="#">RESOURCES</a>
-                <a href="#">DOCS</a>
+                <a data-aos = "fade-down" data-aos-duration = "1500" href="#">COMPANY</a>
+                <a data-aos = "fade-down" data-aos-duration = "2000" href="#">FEATURES</a>
+                <a data-aos = "fade-down" data-aos-duration = "2500" href="#">RESOURCES</a>
+                <a data-aos = "fade-down" data-aos-duration = "3000" href="#">DOCS</a>
             </nav>
-            <button class="btn-singing">SIGNING</button>
+            <button data-aos = "fade-down" data-aos-duration = "1500" class="btn-singing">SIGNING</button>
         </header>
         <div class="content">
             <main>
@@ -39,6 +39,11 @@
         <spline-viewer class = "robot-3d" url="https://prod.spline.design/f1S51EA5kOnt9MRJ/scene.splinecode"></spline-viewer>
     </div>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.33/build/spline-viewer.js"></script>
+   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src = "./src/main.js"></script>
 </body>
 </html>

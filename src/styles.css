@@ -97,7 +97,7 @@ main {
     max-width : 40rem;
     margin-left : 10%;
     z-index: 999;
-    /* margin-bottom: %; */
+    margin-bottom: 4%;
 }
 
 .tag-box {
